@@ -2,8 +2,24 @@ body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(180, 57%, 92%);
+    margin: 0%;
 }
 body p{
     font-size: 1.1em;
     background-color: beige;
+    margin: 2vh;
+
+}
+nav{
+    background-color: hsla(0, 0%, 31%, 0.758);
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 20px 5px; 
+    
+}
+footer{
+   
 }

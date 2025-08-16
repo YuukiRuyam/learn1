@@ -1,0 +1,33 @@
+.box{
+    background-color:red;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+   
+    
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-areas: "header header"
+                          "content sidebar"
+                          "footer footer";
+}
+
+#header {
+    grid-area: header;
+}
+#content {
+    height: 70vh;
+    grid-area: content;
+    
+    
+}
+#sidebar {
+    grid-area: sidebar;
+    
+}
+#footer {
+    grid-area: footer
+}
